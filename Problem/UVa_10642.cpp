@@ -11,7 +11,7 @@ int main() {
 		cin >> x1 >> y1 >> x2 >> y2;
 			int a = x1 + y1;
 			int b = x2 + y2;
-			int dis = 0;
+			
 			int sum1 = 0;
 			for (int i = 0; i <= a; i++) {
 				sum1 += i;
