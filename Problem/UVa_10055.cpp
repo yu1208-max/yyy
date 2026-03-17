@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main() {
-	long long a, b;
+	long long a, b;//题目数据范围较大，使用long long类型
 	while (cin >> a >> b) {
 		cout << abs(a - b) << endl;
 	}
